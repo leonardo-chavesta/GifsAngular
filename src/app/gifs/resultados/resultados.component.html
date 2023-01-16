@@ -1,0 +1,13 @@
+<div class="row">
+    <div *ngFor="let item of resultados" class="animate__animated animate__fadeIn col-md-4 col-sm-6">
+
+        <div class="card">
+            <img [src]="item.images.downsized_medium.url" class="card-img-top" [alt]="item.title">
+            <div class="card-body">
+                <div class="card-text">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
